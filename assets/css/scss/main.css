@@ -5,7 +5,7 @@
 * {
   font-family: "Roboto Slab", serif; }
 
-html, .body, header {
+html, .body {
   width: 100%;
   height: 100%; }
 
@@ -96,26 +96,22 @@ h1, h2, h3, h3, h5, h6 {
     background-color: #fed136; }
 
 header {
+  height: 675px;
   background: url(../../../img/header-bg.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
   color: white; }
   header .intro-text {
-    padding-top: 15%;
-    padding-bottom: 10%; }
+    padding-top: 22%; }
     header .intro-text .intro-lead-in {
       font-family: "Droid Serif", serif;
       font-style: italic;
-      font-size: 40px;
-      line-height: 40px;
-      margin-bottom: 25px; }
+      font-size: 40px; }
     header .intro-text .intro-heading {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 75px;
-      line-height: 75px;
-      margin-bottom: 50px;
       text-transform: uppercase;
       font-style: normal;
       margin-top: 3%; }
@@ -134,10 +130,6 @@ section {
     font-weight: 400;
     margin-bottom: 75px; }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none; }
-
 #portfolio .portfolio-item .portfolio-caption {
   padding: 5%;
   background-color: #fff;
@@ -150,8 +142,7 @@ section {
   #portfolio .portfolio-item .portfolio-caption p {
     font-family: "Droid Serif", serif;
     font-style: italic;
-    font-size: 16px;
-    margin: 0; }
+    font-size: 16px; }
 
 .timeline {
   list-style: none;
@@ -163,7 +154,7 @@ section {
     position: absolute;
     content: "";
     width: 2px;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     left: 40px;
     margin-left: -1.5px; }
   .timeline > li {
@@ -297,13 +288,10 @@ section {
     border: 7px solid white; }
   .team-member h4 {
     margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none; }
-  .team-member p {
-    margin-top: 0; }
+    margin-bottom: 0; }
 
 aside.clients img {
-  margin: 50px auto; }
+  margin: 5% auto; }
 
 section#contact {
   width: 100%;
@@ -345,23 +333,10 @@ section#contact {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #bbbbbb; }
-  section#contact .text-danger {
-    color: #e74c3c; }
 
 footer {
-  padding: 25px 0;
+  padding: 3% 0;
   text-align: center; }
-  footer span.copyright {
-    line-height: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-transform: none; }
-  footer ul.quicklinks {
-    margin-bottom: 0;
-    line-height: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-transform: none; }
 
 ul.social-buttons {
   margin-bottom: 0; }

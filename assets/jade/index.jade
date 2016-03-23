@@ -7,12 +7,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
         title Agency - Start Bootstrap Theme
-        // Custom Fonts
         link(href='assets/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
         // Bootstrap Core CSS
         link(href='assets/css/bootstrap.css', rel='stylesheet')
         // Custom CSS
@@ -48,7 +43,7 @@ html(lang='en')
             .intro-text
               .intro-lead-in Welcome To Our Studio!
                 .intro-heading It's Nice To Meet You
-                  a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+                a.page-scroll.btn.btn-xl(href='#services') Tell Me More
         section#services
           .container
             .row
@@ -85,7 +80,7 @@ html(lang='en')
                   img.img-responsive(src="img/portfolio/roundicons.png", alt='')
                   .portfolio-caption.text-center
                     h4 Round Icons
-                    p.text-muted Graphic Design                                                                 
+                    p.text-muted Graphic Design
               .col-md-4.col-sm-6.portfolio-item
                   img.img-responsive(src="img/portfolio/startup-framework.png", alt='')
                   .portfolio-caption.text-center
@@ -116,49 +111,53 @@ html(lang='en')
             .row
               .col-lg-12.text-center
                 h2.section-heading About
-                h3.section-subheading.text-muted   Lorem ipsum dolor sit amet, consectetur.
+                h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
             .row
               .col-lg-12
                 ul.timeline
                   li
-                    .timeline-image 
-                      img.img-circle.img-responsive(src="img/about/1.jpg", alt="")
+                    .timeline-image
+                      img.img-circle.img-responsive(src='img/about/1.jpg', alt='')
                     .timeline-panel
                       .timeline-heading
                         h4 2009-2011
                         h4.subheading Our Humble Beginnings
                       .timeline-body
-                        p.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur
+                        p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                   li.timeline-inverted
                     .timeline-image
-                      img.img-circle.img-responsive(src="img/about/2.jpg", alt="")
+                      img.img-circle.img-responsive(src='img/about/2.jpg', alt='')
                     .timeline-panel
                       .timeline-heading
-                        h4  March 2011
+                        h4 March 2011
                         h4.subheading An Agency is Born
                       .timeline-body
-                        p.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur
+                        p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                   li
-                    .timeline-image 
-                      img.img-circle.img-responsive(src="img/about/3.jpg", alt="")
+                    .timeline-image
+                      img.img-circle.img-responsive(src='img/about/3.jpg', alt='')
                     .timeline-panel
                       .timeline-heading
                         h4 December 2012
-                        h4.subheading Transition to full Service
+                        h4.subheading Transition to Full Service
                       .timeline-body
-                        p.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur
+                        p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                   li.timeline-inverted
                     .timeline-image
-                      img.img-circle.img-responsive(src="img/about/4.jpg", alt="")
+                      img.img-circle.img-responsive(src='img/about/4.jpg', alt='')
                     .timeline-panel
                       .timeline-heading
-                        h4  July 2014
+                        h4 July 2014
                         h4.subheading Phase Two Expansion
                       .timeline-body
-                        p.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li.timeline-inverted
-                      .timeline-image
-                        h4
+                        p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                  li.timeline-inverted
+                    .timeline-image
+                      h4
                         | Be Part
                         br
                         | Of Our
@@ -185,7 +184,7 @@ html(lang='en')
                         i.fa.fa-facebook
                     li
                       a(href="#")
-                      i.fa.fa-linkedin
+                        i.fa.fa-linkedin
               .col-sm-4
                 .team-member
                   img.img-responsive.img-circle(src="img/team/2.jpg", alt="")
@@ -253,7 +252,7 @@ html(lang='en')
                   .form-group
                     textarea#message(name="", cols="30", rows="10" placeholder="Please enter a message.")
             .col-lg-12.text-center
-              button.btn.btn-x-1  SEND MESSAGE
+              button.btn.btn-xl  SEND MESSAGE
         footer  
           .container
             .row
@@ -275,4 +274,9 @@ html(lang='en')
                     a(href="#") Privacy Policy
                   li
                     a(href="#") Terms of use
-
+        // jQuery
+        script(src='assets/js/jquery.js')
+        // Bootstrap Core JavaScript
+        script(src='assets/js/bootstrap.min.js')
+        // Custom Theme JavaScript
+        script(src='assets/js/agency.js')

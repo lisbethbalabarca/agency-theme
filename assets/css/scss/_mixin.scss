@@ -1,0 +1,19 @@
+@mixin button-variant($color, $background, $border){
+	color: $color;
+	background-color: $background;
+	border-color: $border;
+}
+
+
+// Background Features
+
+@mixin background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@mixin font-title{
+	font-family: $Montse;
+	font-weight: 700;
+}
